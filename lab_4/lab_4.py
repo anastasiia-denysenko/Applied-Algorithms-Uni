@@ -83,11 +83,8 @@ def mesure_time(start_n, end_n, step_n, p, min_weight, max_weight):
     return time_mesured
 times = mesure_time(100, 1000, 10, 1, 10, 500)
 nums = []
-#logs = []
-#import math
 for i in range(100, 1000, 10):
     nums.append(i)
-    #logs.append(i*math.log(i))
 print(times)
 plt.plot(times, nums)
 plt.show()
