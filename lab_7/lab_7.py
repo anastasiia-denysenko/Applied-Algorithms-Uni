@@ -361,10 +361,6 @@ def return_times(min_size, max_size, step, max_low_variety):
                 'fully random':[], 
                 'low variety':[],
                 'triangle':[]}
-    #all_types = ['times_hoare', 'times_lomuto', 'times_middle_pivot', 'times_random_pivot', 'times_three', 'times_three_random', 'times_two']
-    #all_types = ['quick_sort_hoare', 'quick_sort_lomuto', 'quicksort_middle_pivot', \
-    #             'quicksort_random_pivot', 'quick_sort_three', 'quick_sort_three_random', 'quick_sort_two']
-    all_keys = ['fully sorted', 'partialy sorted', 'reverse sorted', 'fully random', 'low variety', 'triangle']
     for k, v in lists.items():
         for j in v:
             start = time.time()
